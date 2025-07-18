@@ -99,7 +99,7 @@ header section h1{
 
  /* Productive Users Section Style */
  .productive-user{
-    margin: 0px 160px 140px 140px ;
+    margin: 0px 160px 0px 140px ;
     background-color: rgba(78, 71, 255, .1);
     border-radius: 24px;
     padding: 50px 142px;
@@ -126,4 +126,56 @@ header section h1{
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
     margin: 0px;
+}
+
+/* user feedback section style */
+.User-feedback{
+    margin: 117px 150px;
+}
+.feedback-title{
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+.feedback-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.feedback{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 14px;
+    padding: 24px;
+}
+.review{
+    margin: 24px 0;
+}
+.review-title{
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+   
+}
+.review-comment{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+.reviewer{
+    display: flex;
+    height: 46px;
+}
+.reviewer-img{
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.reviewer-name{
+    margin: 0;
+    font-size: 20px;
+    color: rgba(37,36,50,.5);
+}
+.review-date{
+    margin: 8px 0 0 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(37,36,50,.3);
 }
