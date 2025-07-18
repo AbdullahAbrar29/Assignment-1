@@ -96,3 +96,34 @@ header section h1{
  .action-image{
     border-radius: 48px;
  }
+
+ /* Productive Users Section Style */
+ .productive-user{
+    margin: 0px 160px 140px 140px ;
+    background-color: rgba(78, 71, 255, .1);
+    border-radius: 24px;
+    padding: 50px 142px;
+ }
+ .productive-user-heading{
+    text-align: center;
+    color: #252432;
+    font-size: 38px;
+    font-weight: bold;
+ }
+.user-data-container{
+    display: flex;
+    justify-content: center;
+    gap: 158px;
+    font-family: "Inter";
+}
+.user-title{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF; 
+    margin: 0px;
+}
+.user-subtitle{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0px;
+}
