@@ -17,6 +17,9 @@
 .color-primary{
     color: #4E47FF;
 }
+.bg-color{
+    background-color: #F5F8FF;
+}
 .btn{
     background-color: #4E47FF;
     color: #fff;
@@ -27,6 +30,7 @@
     border: none;
     padding: 12px 36px;
 }
+
 
 /* Nav style */
 header nav .nav{
@@ -64,4 +68,31 @@ header section h1{
     justify-content: center;
     margin-top: 35px;
 }
+ /* Action Section Style*/
 
+ .action-container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding: 116px 160px 116px 140px;
+    gap: 220px;
+ }
+ .action-collum{
+    width: 50%;
+ }
+ .title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+.sub-title{
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(37,36,50,.5);
+    margin: 23px 0px;
+}
+ .action-image{
+    border-radius: 48px;
+ }
