@@ -179,3 +179,32 @@ header section h1{
     font-weight: 500;
     color: rgba(37,36,50,.3);
 }
+
+/* ready to focus section style */
+
+.focus-section-container{
+    background-color: #fff;
+    margin: 0 149px;
+    padding: 71px 150px;
+    border-radius: 14px;
+}
+.focus-div{
+    text-align: center;
+}
+.focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+.foces-description{
+    color: rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+}
+.focus-img-container{
+    display: flex;
+    justify-content: center;
+}
+.focus-img{
+    margin-top: 20px;
+    border-radius: 48px;
+}
