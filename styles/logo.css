@@ -24,6 +24,7 @@
     background-color: #4E47FF;
     color: #fff;
     font-size: 16px;
+    font-weight: bold;
     font-family: "Raleway";
     border-radius: 10px;
     height: 48px;
@@ -245,4 +246,34 @@ label{
 textarea{
     resize: none;
     padding: 20px 0px 100px 0px;
+}
+
+/* footer style */
+footer .footer-container{
+    text-align: center;
+    padding: 104px 455px;
+}
+.footer-title{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    margin: 0;
+}
+.footer-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #8987A1;
+}
+.footer-nav{
+    /*display: flex;*/
+}
+.footer-nav-list{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 18px;
+}
+.footer-nav-list a{
+    color: #8987A1;
+    text-decoration: none;
 }
