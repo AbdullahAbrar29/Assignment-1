@@ -208,3 +208,41 @@ header section h1{
     margin-top: 20px;
     border-radius: 48px;
 }
+
+/* get in touch section style */
+
+.get-in-touch{
+    margin: 92px 150px 14px;
+    padding: 71px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+}
+.get-in-touch-collum{
+    width: 50%;
+}
+.get-in-touch-title{
+    font-size: 90px;
+    font-weight: bold;  
+}
+label{
+    font-size: 18px;
+    font-weight: 450;
+    display: block;
+    margin-bottom: 10px;
+}
+[placeholder]{
+    font-size: 20px;
+    height: 70px;
+    background-color: #fff;
+    display: block;
+    width: calc(100% - 32px);
+    margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    padding-left: 32px;
+}
+textarea{
+    resize: none;
+    padding: 20px 0px 100px 0px;
+}
