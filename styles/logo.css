@@ -31,6 +31,12 @@
     border: none;
     padding: 12px 36px;
 }
+.btn:hover{
+    background: rgba(230, 14, 78, 0.801);
+    color: #161617;
+    transition: background 1s ease-in;
+    transition: color 1s ease-in;
+}
 
 
 /* Nav style */
@@ -247,6 +253,9 @@ textarea{
     resize: none;
     padding: 20px 0px 100px 0px;
 }
+[type="submit"]{
+    width: 100%;
+}
 
 /* footer style */
 footer .footer-container{
@@ -263,9 +272,6 @@ footer .footer-container{
     font-size: 18px;
     font-weight: 400;
     color: #8987A1;
-}
-.footer-nav{
-    /*display: flex;*/
 }
 .footer-nav-list{
     display: flex;
